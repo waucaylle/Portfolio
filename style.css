@@ -31,8 +31,12 @@ h1 {
 	margin: 30px 0;
 }
 
+.navbar-default .navbar-nav>li>a {
+	color: #28e266;
+}
+
 .navbar-default .navbar-nav>li>a:hover {
-	color: #00ff6f;
+	color: #2e2e2e;
 }
 
 .active {
