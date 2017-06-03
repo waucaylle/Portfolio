@@ -77,6 +77,17 @@ h2 {
 	border-radius: none;
 }
 
+.about {
+	background: linear-gradient(
+		rgba(10,10,10, 0.5),
+		rgba(10,10,10, 0.5)),
+		url(img/rawpixel-com-191102.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 600px;
+	padding-top: 220px;
+}
+
 /*Social Media*/
 
 
@@ -87,5 +98,15 @@ h2 {
 
 .footer p {
 	    -webkit-font-smoothing: antialiased;
-	    
+
+}
+
+/*About Us Page*/
+#aboutUs {
+	padding: 30px 190px;
+}
+
+#aboutUs h2 {
+	margin-top: 35px;
+	padding-bottom: 10px;
 }
