@@ -1,46 +1,22 @@
-/*body { 
-	padding-top: 70px; 
-}*/
-
-/* jumbotron */
-.jumbotron {
-	background: linear-gradient(
-		rgba(20,20,20, 0.3),
-		rgba(20,20,20, 0.3)),
-		url("https://images.unsplash.com/38/awhCbhLqRceCdjcPQUnn_IMG_0249.jpg?dpr=2&auto=format&fit=crop&w=1500&h=1125&q=80&cs=tinysrgb&crop=&bg=");
-	-webkit-background-size: cover;
-	background-size: cover;
-	height: 600px;
-	text-align: center;
-	color: #fff;
-	text-transform: uppercase;
-	padding-top: 160px;
-	border-radius: none;
-}
-
-.container-fluid .jumbotron {
-    border-radius: 0;
-}
-
-.navbar-default {
-	background: none;
-	border: none;
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400px;
+	font-size: 16px;
 }
 
 h1 {
 	margin: 30px 0;
 }
 
-.navbar-default .navbar-nav>li>a {
-	color: #28e266;
-}
-
-.navbar-default .navbar-nav>li>a:hover {
-	color: #2e2e2e;
+h2 {
+	padding-bottom: 30px;
+	font-weight: 700;
+	color: #4a4a4a;
+	font-size: 36px;
 }
 
 .active {
-	border-bottom: 2px solid #000;
+	border-bottom: 2px solid #1abc9c;
 }
 
 .spacing {
@@ -52,10 +28,64 @@ h1 {
 }
 
 .bg-black {
-    background-color: #202020;
+    background-color: #333;
     color: white;
 }
 
 .center {
     text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+/*Navbar*/
+.navbar-default {
+	background: none;
+	border: none;
+}
+
+.navbar-right {
+	margin-right: 20px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #1abc9c;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #2e2e2e;
+}
+
+/* jumbotron */
+
+.container-fluid .jumbotron {
+    border-radius: 0;
+}
+
+.jumbotron {
+	background: linear-gradient(
+		rgba(20,20,20, 0.3),
+		rgba(20,20,20, 0.3)),
+		url("https://images.unsplash.com/38/awhCbhLqRceCdjcPQUnn_IMG_0249.jpg?dpr=2&auto=format&fit=crop&w=1500&h=1125&q=80&cs=tinysrgb&crop=&bg=");
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 600px;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	padding-top: 220px;
+	border-radius: none;
+}
+
+/*Social Media*/
+
+
+/*Footer*/
+.footer {
+	padding: 30px 0;
+}
+
+.footer p {
+	    -webkit-font-smoothing: antialiased;
+	    
 }
