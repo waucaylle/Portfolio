@@ -19,9 +19,10 @@ h2 {
 	border-bottom: 2px solid #1abc9c;
 }
 
-.spacing {
+
+/*.spacing {
     margin-bottom: 40px;
-}
+}*/
 
 .bg-gray {
     background-color: lightgray;
@@ -48,12 +49,17 @@ h2 {
 	margin-right: 20px;
 }
 
-.navbar-default .navbar-nav>li>a {
-	color: #1abc9c;
+.nav>li>a {
+	color: #19714e;
 }
 
-.navbar-default .navbar-nav>li>a:hover {
+.nav>li>a:hover {
 	color: #2e2e2e;
+	background: none;
+}
+
+.nav>li>a:focus {
+	background: none;
 }
 
 /* jumbotron */
@@ -75,21 +81,30 @@ h2 {
 	text-transform: uppercase;
 	padding-top: 220px;
 	border-radius: none;
+	margin-bottom: 0;
 }
 
-.about {
-	background: linear-gradient(
-		rgba(10,10,10, 0.5),
-		rgba(10,10,10, 0.5)),
-		url(img/rawpixel-com-191102.jpg);
-	-webkit-background-size: cover;
-	background-size: cover;
-	height: 600px;
-	padding-top: 220px;
+
+.row-spacing {
+	margin-bottom: 0;
+}
+
+.img-responsive {
+	margin-bottom: 15px;
 }
 
 /*Social Media*/
+.fa {
+	padding: 10px 0;
+}
 
+.fa:hover {
+	color: #1abc9c;
+}
+
+.media {
+	color: #4a4a4a;
+}
 
 /*Footer*/
 .footer {
